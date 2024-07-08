@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer ></script>
+    <title>Students Data management</title>
+</head>
+<body>
+    <div id="head">
+        <h1>Students Records System</h1>
+        <p> A Data management system to manage the data of student </p>
+    </div>
+    
+    <main>
+        
+        <section class="section1">
+
+        <!-- creating the for to take the inputs  -->
+       <form action="">
+        <div class="input">
+            <label for="name">Student Name</label>
+            <input id="name" type="text" required>
+        </div> 
+
+        <div class="input" >
+           <label for="id">ID</label > 
+            <input id="id" type="number" required>
+        </div>
+
+        <div class="input">
+            <label for="email"> Email </label>
+            <input id="email" type="email" required>
+        </div>
+
+        <div class="input">
+            <label for="contactNumber"> Contact Number </label>
+            <input id="contactNumber" type="number" required>
+        </div>
+
+        <div class="input">
+            <button id="subButton" type="button" > Submit </button>
+            <button type="reset">Reset</button>
+            
+        </div>
+     </form>
+     </section>
+
+     <!-- Section2 to display the student data -->
+    <section id="section2">
+<div id="heading" class="heading">
+    <h4>Student Name</h4>
+    <h4>ID</h4>
+    <h4>Email</h4>
+    <h4>Contact Number</h4>
+    <h4>Delete/Edit</h4>
+</div>
+
+    </section>
+
+</main>
+
+
+</body>
+</html>

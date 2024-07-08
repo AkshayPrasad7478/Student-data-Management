@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: silver;
+}
+
+/* styling the body */
+body{
+    
+    background-color: rgb(77, 77, 13);
+}
+
+/* styling the head */
+#head{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling the h1 tag */
+h1{
+    margin-bottom: 10px;
+}
+
+
+/* styling the main */
+main{
+    height: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* styling the section 1 */
+.section1{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+/* styling the form */
+form{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(149, 127, 98);
+    box-shadow: 5px 5px 10px,  -5px -5px 10px;
+    display: flex;
+    flex-direction: column ;
+    justify-content:center;
+    align-items:center;
+}
+
+
+/* styling the input class */
+.input{
+
+    margin: 10px;
+    background-color: rgb(76, 53, 12);
+    border-radius: 5px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    }
+
+
+/* styling the labels */
+label{
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    font-style:bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* styling the input tags */
+input{
+    border-radius: 5px;
+    height: 30px;
+    margin: 5px;
+    /* border: 1px solid black; */
+    
+}
+
+
+/* styling the section2 */
+#section2{ 
+    position: relative;
+    overflow-y:scroll;
+    border-radius: 5px;
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+    padding-top: 0px;
+    border: 2px solid rgb(24, 64, 39);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:baseline;
+}
+
+
+/* styling the heading and dataDiv class */
+.heading, .dataDiv{
+    background-color: white;
+    width: 100%;
+    border: 1px solid rgb(39, 81, 22);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* styling the h4 tag */
+h4{
+    border: none;
+    padding: 10px;
+    /* border: solid 2px black;
+    width: 140px; */
+}
+input{
+    padding: 5px;
+    color: black;
+}
+
+.sName1, .sId1, .sEmail, .sContactNumber{
+
+     border: none;
+    gap: 300px;
+    padding: 10px;
+    
+}
+#heading{
+    position:sticky;
+top: 0px;
+background-color: rgb(86, 22, 22)
+}
+
+label{
+    font-size: large;
+}
+
+button{
+    background-color: rgb(86, 22, 22);
+    padding: 3px;
+    margin: 3px;
+}
+
+.dataDiv{
+background-color: azure;
+color: black;
+}
+
+ .sEmail1, .sContactNumber1, .dltButton, .editButton{
+        color: black;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 200px;
+
+}
+.sId1{
+    
+    color: black;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 50px;
+}
+
+.sName1{
+    color: black;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 160px;
+}
